@@ -1,0 +1,13 @@
+{
+  "name": "template-ghpages-basic",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "deploy": "gh-pages -t -d htdocs",
+    "watch-css": "npx tailwindcss -i ./src/style.css -o ./htdocs/style.css --watch",
+    "build-css": "npx tailwindcss -i ./src/style.css -o ./htdocs/style.css --minify"
+  },
+  "devDependencies": {
+    "gh-pages": "latest"
+  }
+}
