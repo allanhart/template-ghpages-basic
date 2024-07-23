@@ -15,7 +15,7 @@ https://docs.google.com/document/d/17mc0UNVmTI0r-yuPTU1Z8HnLwYyyeBSOSw47MhHxT2E/
 - [TailwindCSS](https://tailwindcss.com/blog/standalone-cli)
 - [GitHub](https://github.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
-
+- [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)
 
 ## References
 - [TailwindCSS Reference](https://tailwindcss.com/docs/installation)
