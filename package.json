@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": false,
   "scripts": {
-    "deploy": "npm run build; gh-pages -t -d public",
+    "deploy": "gh-pages -t -d public",
     "dev": "npx tailwindcss -i ./src/style.css -o ./public/style/main.css --watch",
     "build": "npx tailwindcss -i ./src/style.css -o ./public/style/main.css --minify"
   },
