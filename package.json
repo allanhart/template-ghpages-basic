@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": false,
   "scripts": {
-    "deploy": "gh-pages -t -d public",
-    "dev": "npx tailwindcss -i ./src/style.css -o ./public/style.css --watch",
-    "build": "npx tailwindcss -i ./src/style.css -o ./public/style.css --minify"
+    "deploy": "npm run build; gh-pages -t -d public",
+    "dev": "npx tailwindcss -i ./src/style.css -o ./public/style/main.css --watch",
+    "build": "npx tailwindcss -i ./src/style.css -o ./public/style/main.css --minify"
   },
   "devDependencies": {
     "gh-pages": "latest"
